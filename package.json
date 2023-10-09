@@ -1,0 +1,22 @@
+{
+  "name": "ds",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"{src,apps,libs,test}/**/*.scss\"",
+    "lint:fix": "stylelint \"{src,apps,libs,test}/**/*.scss\"  --fix"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-prettier": "^4.0.2"
+  }
+}

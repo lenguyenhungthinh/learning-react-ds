@@ -1,0 +1,34 @@
+/**
+ * This will be the color palette for the application.
+ *
+ * TABLE OF CONTENTS
+ * Global text color
+ * Buttons
+ * Forms
+ *
+ */
+
+/*=============================================
+=            Global text color                =
+=============================================*/
+
+$body-text-color: var(--dse--body-text-color, $dark) !default;
+$body-bg-color: var(--dse--body-bg-color, $white) !default;
+
+/*=============================================
+=            Buttons                          =
+=============================================*/
+
+$btn-primary-bg: var(--dse--btn-primary-bg, $green) !default;
+$btn-primary-color: var(--dse--btn-primary-color, $white) !default;
+$btn-primary-bg-hover: var(--dse--btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=            Forms                            =
+=============================================*/
+
+$form-color: var(--dse--form-color, $dark) !default;
+$form-bg-color: var(--dse--form-bg-color, $white) !default;
+$form-error-color: var(--dse--form-error-color, $red) !default;
+$form-error-border-color: var(--dse--form-error-border-color, $red) !default;
+$form-error-focus-color: var(--dse--form-error-focus-color, $green) !default;
