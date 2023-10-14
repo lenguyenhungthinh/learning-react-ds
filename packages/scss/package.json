@@ -29,5 +29,8 @@
     "stylelint": "^15.10.3",
     "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-prettier": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
