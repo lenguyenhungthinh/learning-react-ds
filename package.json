@@ -1,33 +1,19 @@
 {
-  "name": "ds",
+  "name": "@ds.e/core",
   "version": "1.0.0",
-  "description": "",
+  "description": "my persona",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "stylelint \"{src,apps,libs,test}/**/*.scss\"",
-    "lint:fix": "stylelint \"{src,apps,libs,test}/**/*.scss\"  --fix",
-    "build": "node src/scripts/build.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.scss": "stylelint \"{src,apps,libs,test}/**/*.scss\"  --fix"
+    "build": "lerna run build"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "normalize-scss": "^7.0.1"
-  },
   "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "node-sass": "^9.0.0",
-    "prettier": "^3.0.3",
-    "stylelint": "^15.10.3",
-    "stylelint-config-sass-guidelines": "^10.0.0",
-    "stylelint-prettier": "^4.0.2"
-  }
+    "lerna": "^7.3.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
