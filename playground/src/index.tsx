@@ -2,16 +2,13 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 import {Button} from '@ds.e/react';
+import '@ds.e/scss/lib/Button.css'
 
 console.log('hello');
 
-// ReactDOM.render(
-//   <Button label='Click me'></Button>,
-//   document.getElementById("root")
-// );
 
 const App = () => {
-  return <div>Hello, React 18! <Button label='Click me'></Button></div>;
+  return <Button label='Finish adding css!'></Button>;
 };
 
 // Replace ReactDOM.render with createRoot

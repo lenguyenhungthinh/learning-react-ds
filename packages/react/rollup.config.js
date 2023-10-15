@@ -4,16 +4,19 @@ export default {
     input:
         [
             'src/index.ts',
-            'src/atoms/Button/index.ts'
+            'src/atoms/Button/index.ts',
+            'src/atoms/Button/Button.tsx'
         ],
     output: {
         dir: 'lib',
         format: 'esm',
+        preserveModules: true,
+        preserveModulesRoot: 'src',
         sourcemap: true,
     },
     plugins: [
         Ts(),
     ],
     preserveModules: true,
-    external: ['react']
+    external: ['react', 'react-dom'],
 };
