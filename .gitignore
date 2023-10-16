@@ -2,3 +2,7 @@ node_modules/
 playground/.cache
 playground/dist
 packages/react/lib
+packages/foundation/lib
+packages/scss/lib
+playground/react/.cache
+playground/react/dist

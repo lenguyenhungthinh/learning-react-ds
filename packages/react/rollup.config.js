@@ -4,8 +4,6 @@ export default {
     input:
         [
             'src/index.ts',
-            'src/atoms/Button/index.ts',
-            'src/atoms/Button/Button.tsx'
         ],
     output: {
         dir: 'lib',
@@ -18,5 +16,5 @@ export default {
         Ts(),
     ],
     preserveModules: true,
-    external: ['react', 'react-dom'],
+    external: ['react', '@ds.e/foundation'],
 };
